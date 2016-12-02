@@ -5,13 +5,13 @@
 To install any formula from this repository you can do:
 
 ```
-brew install sobolevn/tap/FORMULA
+brew install theronl/tap/FORMULA
 ```
 
 There's also an option to use `brew tap`:
 
 ```
-brew tap sobolevn/tap
+brew tap theronl/tap
 brew install FORMULA
 ```
 

@@ -92,8 +92,8 @@ class EmacsX11 < Formula
       args << "--without-ns"
     end
     
-    system "./configure", *args
-    system "make"
+    system "CPPFLAGS=-I/opt/X11/include", "./configure", *args
+    system "make", "-j", "8"
     system "make", "install"
 
     if build.with? "cocoa"

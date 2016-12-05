@@ -44,6 +44,8 @@ class EmacsX11 < Formula
   depends_on "imagemagick" => :optional
   depends_on "mailutils" => :optional
 
+  conflicts_with "emacs", :because => "Differing versions of same formula"
+  
   def install
     args = %W[
       --disable-dependency-tracking

@@ -79,7 +79,7 @@ class EmacsX11 < Formula
     args << "--without-pop" if build.with? "mailutils"
 
     if build.with? "x11"
-      args << "--with-x" << "CPPFLAGS=\"-I/opt/X11/include -I/opt/X11/include/X11\""
+      args << "--with-x" # << "CPPFLAGS=\"-I/opt/X11/include -I/opt/X11/include/X11\""
     else
       args << "--without-x"
     end

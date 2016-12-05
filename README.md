@@ -18,4 +18,4 @@ brew install FORMULA
 ## List of formulas:
 
 * maven30 - install older version of maven
-
+* emacs-x11 - build and install emacs with X11 enabled (use ```brew install --with-x11 --without-cocoa emacs-x11```)
